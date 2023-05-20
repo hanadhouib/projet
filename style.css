@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+  
+li {
+    display: inline;
+    margin: 20px 20px 20px 20px;
+ }
+.text {
+    color: rgb(107, 83, 83);
+}
+nav{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        background-color: #e8c4c4;
+        z-index:5;
+        top: 0;
+        left: 0;
+        padding: 20px;
+      }
+ #logo{
+        width: 200px;
+        height: 300px;
+        margin-left: 700px;
+        margin-top: 100px;
+      }
+      .para{
+        width: 1100px;
+        margin-left: 150px;
+        color: #d70e5f;
+      }
+      .bb{
+        position: relative;
+
+      }
+      .aa{
+        width: 400px;
+        height: 400px;
+        background-color: aliceblue;
+        position: absolute;
+        left: 100px;
+        top: -100px;
+      }
+      .a{
+       font-size: 50px;
+      }
+      #image{
+        width: 1500px;
+        height: 800px;
+      }
+      .TXT{
+        color: rgb(107, 83, 83);
+        background-color: antiquewhite;
+      }
+      #photo{
+        height: 230px;
+        width: 230px;
+      }
+      .activite{
+        display: flex;
+        justify-content: space-between;
+      }
+      .barre{
+        display: flex;
+        justify-content: space-between;
+        height: 30px;
+        width: 1300px;
+        background-color: #e8c4c4;
+      }
+      #taille{
+        height: 40px;
+        width: 40px;
+      }
+      .position{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      #text{
+        font-size: 20px;
+        color: black;
+
+      }
+      .va{
+        display: flex;
+        justify-content: center;
+        
+      }
+      @media  screen and (max-width: 576px){
+        .text{
+           
+        }
+      }
+      
