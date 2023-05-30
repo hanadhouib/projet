@@ -7,6 +7,7 @@ li {
 .text {
     color: rgb(107, 83, 83);
 }
+
 nav{
         display: flex;
         justify-content:center;
@@ -19,6 +20,28 @@ nav{
         left: 0;
         padding: 20px;
       }
+      #depart{
+        position: relative;
+    }
+    .departlist{
+        position: absolute;
+        right: 650px;
+        flex-direction: column;
+        display: none;
+    
+    }
+    .departlist-a{
+        text-decoration: none;
+        color: black;
+       
+    }
+    a:hover{
+        color: #a07171;
+        background-color: #ece5e8;
+    }
+    #depart:hover .departlist{
+        display: flex;
+    }
  #logo{
         width: 200px;
         height: 300px;
@@ -27,7 +50,7 @@ nav{
       }
       .para{
         width: 1100px;
-        margin-left: 150px;
+        margin-left: 50px;
         color: #d70e5f;
       }
       .bb{
@@ -35,15 +58,25 @@ nav{
 
       }
       .aa{
-        width: 400px;
-        height: 400px;
-        background-color: aliceblue;
+        width: 600px;
+        height: 200px;
+        background-color: #e8c4c496;
         position: absolute;
-        left: 100px;
-        top: -100px;
+        left: 400px;
+        top: 200px;
+      }
+      #mot{
+        font-style: italic;
+        font-size: 40px;
+        margin-top: 20px;
+    
+
       }
       .a{
        font-size: 50px;
+       color: #d70e5f;
+       margin-left: 100px;
+
       }
       #image{
         width: 1500px;
@@ -65,7 +98,7 @@ nav{
         display: flex;
         justify-content: space-between;
         height: 30px;
-        width: 1300px;
+        width: 100%;
         background-color: #e8c4c4;
       }
       #taille{
@@ -86,6 +119,11 @@ nav{
         display: flex;
         justify-content: center;
         
+      }
+      .fin{
+        background-color: #e8c4c4;
+        height: 100px;
+        width: 100%;
       }
       @media  screen and (max-width: 576px){
         .text{
